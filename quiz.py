@@ -44,22 +44,34 @@ def closer_to(a, b, c):
         return c
     if abs(a-b) == abs(a-c):
         return 0
-#   (target, guess, guess)
+
+#(target, guess, guess)
 print closer_to(5, 6, 8)
 print closer_to(5, 4, 16)
 print closer_to(5, -1, 100)
-print closer_to(5, 4, 4)
+print closer_to(5, 4, 4), "\n"
 
 
 
 
+#two_as_one
+def two_as_one(a, b, c):
+    if (a-b == c) or (b-c == a) or (c-a == b):
+        return True
+    else:
+        return False
 
+#true
+print two_as_one(4, 5, 9)
+print two_as_one(10, 5, 5)
+print two_as_one(-10, -5, -5)
+print two_as_one(-5, -10, 5)
+print two_as_one(1, 3, 2)
+#false
+print two_as_one(4, 45, 9)
+print two_as_one(2, 5, 9)
+print two_as_one(4, 5, -80)
+print two_as_one(-10, 5, 5)
 
-
-
-
-
-
-# TODO - write two_as_one
 
 # TODO - write pig_latinify
