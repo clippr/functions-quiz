@@ -13,9 +13,9 @@ print has_teen(5, 2, 6), "\n"
 #write not_string
 def not_string(s):
     if s[:3] == "not":
-        return s[4:] + " not"
+        return s + "not"
     else:
-        return "not " + s[::]
+        return "not" + s[::]
 
 print not_string("not bananas")
 print not_string("ayy lmao"), "\n"
