@@ -36,7 +36,29 @@ print icy_hot(104, 104) #false
 print icy_hot(-23, -23), "\n" #false
 
 
-# TODO - write closer_to
+#closer_to
+def closer_to(a, b, c):
+    if abs(a-b) < abs(a-c):
+        return b
+    if abs(a-b) > abs(a-c):
+        return c
+    if abs(a-b) == abs(a-c):
+        return 0
+#   (target, guess, guess)
+print closer_to(5, 6, 8)
+print closer_to(5, 4, 16)
+print closer_to(5, -1, 100)
+print closer_to(5, 4, 4)
+
+
+
+
+
+
+
+
+
+
 
 # TODO - write two_as_one
 
