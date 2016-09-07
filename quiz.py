@@ -21,17 +21,19 @@ print not_string("not bananas")
 print not_string("ayy lmao"), "\n"
 
 
-# TODO - write icy_hot
+#icy_hot
 def icy_hot(a, b):
     if (a > 100 and b < 0) or (b > 100 and a <0):
         return True
+    else:
+        return False
 
 print icy_hot(101, -20) #true
 print icy_hot(123, 5) #false
 print icy_hot(-39, 104) #true
 print icy_hot(5, 104) #false
 print icy_hot(104, 104) #false
-print icy_hot(-23, -23) #false
+print icy_hot(-23, -23), "\n" #false
 
 
 # TODO - write closer_to
