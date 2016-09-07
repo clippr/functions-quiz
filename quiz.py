@@ -67,6 +67,7 @@ print two_as_one(10, 5, 5)
 print two_as_one(-10, -5, -5)
 print two_as_one(-5, -10, 5)
 print two_as_one(1, 3, 2)
+print two_as_one(6, 4, 2)
 #false
 print two_as_one(4, 45, 9)
 print two_as_one(2, 5, 9)
